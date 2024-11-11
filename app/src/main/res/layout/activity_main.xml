@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/show_input_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Input Fragment" />
+
+    <Button
+        android:id="@+id/show_output_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Output Fragment" />
+</LinearLayout>
